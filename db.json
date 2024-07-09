@@ -1,0 +1,40 @@
+{
+  "projects": [
+    {
+      "id": "b154",
+      "name": "Bruno Trindade Friaca Moreira",
+      "budget": "2000",
+      "category": {
+        "id": "1",
+        "name": "Pessoal"
+      },
+      "cost": 1000,
+      "services": [
+        {
+          "name": "Contratar dev frontend ",
+          "cost": "1000",
+          "description": "Criar um site",
+          "id": "1f80fc16-99a5-4a01-9d5a-7f160f312e27"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Pessoal"
+    },
+    {
+      "id": "2",
+      "name": "Comida"
+    },
+    {
+      "id": "3",
+      "name": "Viagem"
+    },
+    {
+      "id": "4",
+      "name": "Planejamento"
+    }
+  ]
+}
