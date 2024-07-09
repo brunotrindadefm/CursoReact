@@ -24,6 +24,7 @@ function Project() {
     const [type, setType] = useState()
 
     useEffect(() => {
+        setTimeout(() => {
         fetch(`http://localhost:5000/projects/${id}`, {
             method: "GET",
             headers: {
@@ -35,6 +36,7 @@ function Project() {
                 setServices(data.services)
             })
             .catch(erro => console.log(erro))
+        }, 800)
     }, [id])
 
     function toggleProjectForm() {
